@@ -11,7 +11,7 @@ const app = new Vue({
         test: 'Vue is working!'
     },
     mounted() {
-        console.log('Vue app mounted!', this.$el);
-        console.log('Test data:', this.test);
+        // console.log('Vue app mounted!', this.$el);
+        // console.log('Test data:', this.test);
     }
 });

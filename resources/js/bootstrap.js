@@ -22,7 +22,7 @@ window.Pusher = Pusher;
 
 window.Echo = new Echo({
     broadcaster: 'pusher',
-    key: 'laravel-web-socket-secret',
+    key: 'laravel-web-socket-key',
     wsHost: window.location.hostname,
     wsPort: 6001,
     forceTLS: false,
